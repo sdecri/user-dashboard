@@ -21,8 +21,6 @@ def serve_layout():
         #     ],
         #     value='Today'
         # )
-        , dcc.Input(id="user-search", value='ciao', type="search", debounce=True)
-        , html.Button(['Search'], id='btn_search', n_clicks_timestamp=0)
         , dcc.Loading(id="loading-1", children=[
             html.Button(
                 ['Refresh'], id='btn_refresh', n_clicks_timestamp=0
@@ -46,6 +44,7 @@ def serve_layout():
                 , columns=[{"name": j, "id": j, "editable": True if j == "name" else False} for j in all_users_df]
                 , data=all_users_df.to_dict('records')
                 , row_deletable=True
+                , filter_action='native'
                 , style_table={'overflowX': 'scroll'}
             )
         ], type="default")

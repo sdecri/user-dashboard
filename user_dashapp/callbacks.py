@@ -1,5 +1,4 @@
 from dashlib import *
-from tinydb import Query
 
 # print db.all()
 # print table.all()
@@ -37,13 +36,10 @@ def register_callbacks(dashapp):
         ,[
             Input('btn_refresh', 'n_clicks_timestamp')
             , Input('btn_save', 'n_clicks_timestamp')
-            , Input('btn_search', 'n_clicks_timestamp')
-        ], [State('table_all_users', 'data')
-            ,State('user-search', 'value')])
-    def display(n_clicks_ts_refresh, n_clicks_ts_save, n_clicks_ts_search
-                , current_table_data, user_search_value):
+        ], [State('table_all_users', 'data')])
+    def display(n_clicks_ts_refresh, n_clicks_ts_save, current_table_data):
 
-        btn_state = [int(n_clicks_ts_refresh), int(n_clicks_ts_save), int(n_clicks_ts_search)]
+        btn_state = [int(n_clicks_ts_refresh), int(n_clicks_ts_save)]
         msg = ""
         output = []
         name_regex = None
@@ -62,9 +58,6 @@ def register_callbacks(dashapp):
                 table_users.insert_multiple(current_table_data)
                 msg = "Save was clicked"
 
-            elif max_index == 2:
-                name_regex = user_search_value
-                msg = "Search was clicked"
             else:
                 msg = 'None of the buttons have been clicked yet'
 
