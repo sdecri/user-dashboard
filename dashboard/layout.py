@@ -32,7 +32,7 @@ def serve_layout():
                 , data=best_users_df.to_dict('records')
                 , style_table={'overflowX': 'scroll'}
             )
-            , html.H2('All Game Records')
+            , html.H2('All Records')
             , html.Button(
                 ['Save'], id='btn_save', n_clicks_timestamp=0
             )
