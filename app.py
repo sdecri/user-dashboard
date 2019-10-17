@@ -21,8 +21,8 @@ def register_dashapp(my_app, title, base_pathname, layout, register_callbacks_fu
 def create_app():
     server = Flask(__name__)
 
-    from user_dashapp.layout import layout as layout1
-    from user_dashapp.callbacks import register_callbacks as register_callbacks1
+    from dashboard.layout import layout as layout1
+    from dashboard.callbacks import register_callbacks as register_callbacks1
     register_dashapp(server, 'Games Dashboard', 'dashboard', layout1, register_callbacks1)
 
     return server

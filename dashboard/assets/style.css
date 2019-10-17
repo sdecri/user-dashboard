@@ -1,3 +1,34 @@
+@import "exo2.css";
+
+html * {
+    font-family: Exo2-Regular;
+}
+
+body {
+    padding: 15px;
+    background: #EEEEEF;
+}
+
+#react-entry-point h1:after {
+    content: "";
+    float: right;
+    background-image: url("logo-ptv-group.svg");
+    height: 63px;
+    display: inline-block;
+    width: 166px;
+    background-repeat: no-repeat;
+}
+.dash-spreadsheet-container .dash-spreadsheet-inner th {
+    background-color: #E02129;
+    color: white;
+}
+.dash-spreadsheet-container div.dash-cell-value, .column-header-name {
+    padding-right: 10px;
+}
+#btn_save {
+    margin-bottom: 10px;
+}
+
 .mask-container {
     display: none;
     position: absolute;

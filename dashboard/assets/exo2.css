@@ -1,0 +1,88 @@
+@font-face {
+  font-family: 'Exo2-Black';
+  src: url('./exo2/Exo2-Black.otf')  format('opentype')
+}
+@font-face {
+  font-family: 'Exo2-BlackItalic';
+  src: url('./exo2/Exo2-BlackItalic.otf')  format('opentype')
+}
+
+@font-face {
+  font-family: 'Exo2-Bold';
+  src: url('./exo2/Exo2-Bold.otf')  format('opentype')
+}
+
+@font-face {
+  font-family: 'Exo2-BoldItalic';
+  src: url('./exo2/Exo2-BoldItalic.otf')  format('opentype')
+}
+
+@font-face {
+  font-family: 'Exo2-ExtraBold';
+  src: url('./exo2/Exo2-ExtraBold.otf')  format('opentype')
+}
+
+@font-face {
+  font-family: 'Exo2-ExtraBoldItalic';
+  src: url('./exo2/Exo2-ExtraBoldItalic.otf')  format('opentype')
+}
+
+@font-face {
+  font-family: 'Exo2-ExtraLight';
+  src: url('./exo2/Exo2-ExtraLight.otf')  format('opentype')
+}
+
+@font-face {
+  font-family: 'Exo2-ExtraLightItalic';
+  src: url('./exo2/Exo2-ExtraLightItalic.otf')  format('opentype')
+}
+
+@font-face {
+  font-family: 'Exo2-Italic';
+  src: url('./exo2/Exo2-Italic.otf')  format('opentype')
+}
+
+@font-face {
+  font-family: 'Exo2-Light';
+  src: url('./exo2/Exo2-Light.otf')  format('opentype')
+}
+
+@font-face {
+  font-family: 'Exo2-LightItalic';
+  src: url('./exo2/Exo2-LightItalic.otf')  format('opentype')
+}
+
+@font-face {
+  font-family: 'Exo2-Medium';
+  src: url('./exo2/Exo2-Medium.otf')  format('opentype')
+}
+
+@font-face {
+  font-family: 'Exo2-MediumItalic';
+  src: url('./exo2/Exo2-MediumItalic.otf')  format('opentype')
+}
+
+@font-face {
+  font-family: 'Exo2-Regular';
+  src: url('./exo2/Exo2-Regular.otf')  format('opentype')
+}
+
+@font-face {
+  font-family: 'Exo2-SemiBold';
+  src: url('./exo2/Exo2-SemiBold.otf')  format('opentype')
+}
+
+@font-face {
+  font-family: 'Exo2-SemiBoldItalic';
+  src: url('./exo2/Exo2-SemiBoldItalic.otf')  format('opentype')
+}
+
+@font-face {
+  font-family: 'Exo2-Thin';
+  src: url('./exo2/Exo2-Thin.otf')  format('opentype')
+}
+
+@font-face {
+  font-family: 'Exo2-ThinItalic';
+  src: url('./exo2/Exo2-ThinItalic.otf')  format('opentype')
+}
