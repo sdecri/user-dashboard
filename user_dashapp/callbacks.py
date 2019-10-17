@@ -1,11 +1,11 @@
 from dashlib import *
 
-# print db.all()
-# print table.all()
-# exit(0)
+
 # db.purge_table("users")
+# from datetime import datetime,timedelta
+# nUsers = 100000
 # data = [{"name": "foo_" + str(i), "score": i
-#             , "time":(datetime.now() - timedelta(seconds=i)).strftime(DATETIME_FORMAT)} for i in range(0, 10000)]
+#             , "time":(datetime.now() - timedelta(seconds=i)).strftime(DATETIME_FORMAT)} for i in range(0, nUsers)]
 # db.insert_multiple(data)
 
 
