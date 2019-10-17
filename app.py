@@ -43,7 +43,7 @@ def debugapp():
     #score = 100000000
     return __name__ + '<br>' + \
            '<a href="dashboard">Dashboard</a><br>' \
-           '<a href="db">get db data</a><br>/' + \
+           '<a href="db">get db data</a><br>' + \
            '<a href="db/user/' + str(score) + ' ">insert records with db/name/score </a>'
 
 
